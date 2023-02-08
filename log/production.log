@@ -1,0 +1,333 @@
+W, [2023-02-08T11:55:54.944496 #5703]  WARN -- : You are running SQLite in production, this is generally not recommended. You can disable this warning by setting "config.active_record.sqlite3_production_warning=false".
+I, [2023-02-08T11:58:55.389248 #5703]  INFO -- : [f0762756-33d7-46d8-89b9-2ca64cc0a55c] Started GET "/articles" for 10.10.13.223 at 2023-02-08 11:58:55 +0530
+I, [2023-02-08T11:58:55.391146 #5703]  INFO -- : [f0762756-33d7-46d8-89b9-2ca64cc0a55c] Processing by ArticleController#readAll as HTML
+I, [2023-02-08T11:58:55.400467 #5703]  INFO -- : [f0762756-33d7-46d8-89b9-2ca64cc0a55c] Completed 500 Internal Server Error in 9ms (ActiveRecord: 3.6ms | Allocations: 1152)
+F, [2023-02-08T11:58:55.401059 #5703] FATAL -- : [f0762756-33d7-46d8-89b9-2ca64cc0a55c]   
+[f0762756-33d7-46d8-89b9-2ca64cc0a55c] ActiveRecord::StatementInvalid (SQLite3::SQLException: no such table: articles):
+[f0762756-33d7-46d8-89b9-2ca64cc0a55c]   
+[f0762756-33d7-46d8-89b9-2ca64cc0a55c] app/controllers/article_controller.rb:26:in `readAll'
+I, [2023-02-08T11:58:55.566817 #5703]  INFO -- : [64ab98dc-abc3-4736-a298-4f8d2ccc7203] Started GET "/favicon.ico" for 10.10.13.223 at 2023-02-08 11:58:55 +0530
+F, [2023-02-08T11:58:55.567825 #5703] FATAL -- : [64ab98dc-abc3-4736-a298-4f8d2ccc7203]   
+[64ab98dc-abc3-4736-a298-4f8d2ccc7203] ActionController::RoutingError (No route matches [GET] "/favicon.ico"):
+[64ab98dc-abc3-4736-a298-4f8d2ccc7203]   
+I, [2023-02-08T11:58:55.991744 #5703]  INFO -- : [f5419402-26ca-49b2-adc0-dc4acb9118f5] Started GET "/articles" for 10.10.13.223 at 2023-02-08 11:58:55 +0530
+I, [2023-02-08T11:58:55.993609 #5703]  INFO -- : [f5419402-26ca-49b2-adc0-dc4acb9118f5] Processing by ArticleController#readAll as HTML
+I, [2023-02-08T11:58:55.995723 #5703]  INFO -- : [f5419402-26ca-49b2-adc0-dc4acb9118f5] Completed 500 Internal Server Error in 2ms (ActiveRecord: 0.9ms | Allocations: 264)
+F, [2023-02-08T11:58:55.997178 #5703] FATAL -- : [f5419402-26ca-49b2-adc0-dc4acb9118f5]   
+[f5419402-26ca-49b2-adc0-dc4acb9118f5] ActiveRecord::StatementInvalid (SQLite3::SQLException: no such table: articles):
+[f5419402-26ca-49b2-adc0-dc4acb9118f5]   
+[f5419402-26ca-49b2-adc0-dc4acb9118f5] app/controllers/article_controller.rb:26:in `readAll'
+I, [2023-02-08T11:59:19.146638 #5703]  INFO -- : [fc6f2404-ac4d-43ce-b2a7-e974978de85a] Started GET "/articles" for 10.10.13.223 at 2023-02-08 11:59:19 +0530
+I, [2023-02-08T11:59:19.148571 #5703]  INFO -- : [fc6f2404-ac4d-43ce-b2a7-e974978de85a] Processing by ArticleController#readAll as HTML
+I, [2023-02-08T11:59:19.151062 #5703]  INFO -- : [fc6f2404-ac4d-43ce-b2a7-e974978de85a] Completed 500 Internal Server Error in 2ms (ActiveRecord: 0.8ms | Allocations: 262)
+F, [2023-02-08T11:59:19.152459 #5703] FATAL -- : [fc6f2404-ac4d-43ce-b2a7-e974978de85a]   
+[fc6f2404-ac4d-43ce-b2a7-e974978de85a] ActiveRecord::StatementInvalid (SQLite3::SQLException: no such table: articles):
+[fc6f2404-ac4d-43ce-b2a7-e974978de85a]   
+[fc6f2404-ac4d-43ce-b2a7-e974978de85a] app/controllers/article_controller.rb:26:in `readAll'
+I, [2023-02-08T12:01:13.271764 #5703]  INFO -- : [0ad081e7-dd1d-442c-bf0f-4d7cd1714585] Started GET "/articles" for 10.10.13.223 at 2023-02-08 12:01:13 +0530
+I, [2023-02-08T12:01:13.273687 #5703]  INFO -- : [0ad081e7-dd1d-442c-bf0f-4d7cd1714585] Processing by ArticleController#readAll as HTML
+I, [2023-02-08T12:01:13.275994 #5703]  INFO -- : [0ad081e7-dd1d-442c-bf0f-4d7cd1714585] Completed 500 Internal Server Error in 2ms (ActiveRecord: 0.8ms | Allocations: 262)
+F, [2023-02-08T12:01:13.276809 #5703] FATAL -- : [0ad081e7-dd1d-442c-bf0f-4d7cd1714585]   
+[0ad081e7-dd1d-442c-bf0f-4d7cd1714585] ActiveRecord::StatementInvalid (SQLite3::SQLException: no such table: articles):
+[0ad081e7-dd1d-442c-bf0f-4d7cd1714585]   
+[0ad081e7-dd1d-442c-bf0f-4d7cd1714585] app/controllers/article_controller.rb:26:in `readAll'
+I, [2023-02-08T12:02:52.076924 #5703]  INFO -- : [eaa0f7d0-1b83-41a6-af7f-04cdb08a1b1d] Started GET "/users" for 127.0.0.1 at 2023-02-08 12:02:52 +0530
+I, [2023-02-08T12:02:52.077629 #5703]  INFO -- : [eaa0f7d0-1b83-41a6-af7f-04cdb08a1b1d] Processing by UserController#readAllUser as HTML
+I, [2023-02-08T12:02:52.079082 #5703]  INFO -- : [eaa0f7d0-1b83-41a6-af7f-04cdb08a1b1d] Completed 500 Internal Server Error in 1ms (ActiveRecord: 0.4ms | Allocations: 367)
+F, [2023-02-08T12:02:52.079720 #5703] FATAL -- : [eaa0f7d0-1b83-41a6-af7f-04cdb08a1b1d]   
+[eaa0f7d0-1b83-41a6-af7f-04cdb08a1b1d] ActiveRecord::StatementInvalid (SQLite3::SQLException: no such table: users):
+[eaa0f7d0-1b83-41a6-af7f-04cdb08a1b1d]   
+[eaa0f7d0-1b83-41a6-af7f-04cdb08a1b1d] app/controllers/user_controller.rb:16:in `readAllUser'
+I, [2023-02-08T12:02:57.543741 #5703]  INFO -- : [49d70085-36a4-47c2-9c86-8fe82ad3a471] Started GET "/articles/author/opqrs" for 127.0.0.1 at 2023-02-08 12:02:57 +0530
+F, [2023-02-08T12:02:57.544260 #5703] FATAL -- : [49d70085-36a4-47c2-9c86-8fe82ad3a471]   
+[49d70085-36a4-47c2-9c86-8fe82ad3a471] ActionController::RoutingError (No route matches [GET] "/articles/author/opqrs"):
+[49d70085-36a4-47c2-9c86-8fe82ad3a471]   
+I, [2023-02-08T12:03:02.514412 #5703]  INFO -- : [fe0eae0a-b0e2-49ea-9d6e-26d3ea07ddbb] Started GET "/articles" for 127.0.0.1 at 2023-02-08 12:03:02 +0530
+I, [2023-02-08T12:03:02.515215 #5703]  INFO -- : [fe0eae0a-b0e2-49ea-9d6e-26d3ea07ddbb] Processing by ArticleController#readAll as HTML
+I, [2023-02-08T12:03:02.516339 #5703]  INFO -- : [fe0eae0a-b0e2-49ea-9d6e-26d3ea07ddbb] Completed 500 Internal Server Error in 1ms (ActiveRecord: 0.4ms | Allocations: 246)
+F, [2023-02-08T12:03:02.517076 #5703] FATAL -- : [fe0eae0a-b0e2-49ea-9d6e-26d3ea07ddbb]   
+[fe0eae0a-b0e2-49ea-9d6e-26d3ea07ddbb] ActiveRecord::StatementInvalid (SQLite3::SQLException: no such table: articles):
+[fe0eae0a-b0e2-49ea-9d6e-26d3ea07ddbb]   
+[fe0eae0a-b0e2-49ea-9d6e-26d3ea07ddbb] app/controllers/article_controller.rb:26:in `readAll'
+I, [2023-02-08T12:03:19.639331 #5703]  INFO -- : [a02d3c4f-125f-4a36-96e5-44a3bf433fde] Started GET "/articles" for 127.0.0.1 at 2023-02-08 12:03:19 +0530
+I, [2023-02-08T12:03:19.640255 #5703]  INFO -- : [a02d3c4f-125f-4a36-96e5-44a3bf433fde] Processing by ArticleController#readAll as HTML
+I, [2023-02-08T12:03:19.642281 #5703]  INFO -- : [a02d3c4f-125f-4a36-96e5-44a3bf433fde] Completed 500 Internal Server Error in 2ms (ActiveRecord: 0.8ms | Allocations: 246)
+F, [2023-02-08T12:03:19.643541 #5703] FATAL -- : [a02d3c4f-125f-4a36-96e5-44a3bf433fde]   
+[a02d3c4f-125f-4a36-96e5-44a3bf433fde] ActiveRecord::StatementInvalid (SQLite3::SQLException: no such table: articles):
+[a02d3c4f-125f-4a36-96e5-44a3bf433fde]   
+[a02d3c4f-125f-4a36-96e5-44a3bf433fde] app/controllers/article_controller.rb:26:in `readAll'
+I, [2023-02-08T12:03:22.718979 #5703]  INFO -- : [843b8e3b-2833-4537-808c-9db9dfbc947b] Started GET "/" for 127.0.0.1 at 2023-02-08 12:03:22 +0530
+F, [2023-02-08T12:03:22.719500 #5703] FATAL -- : [843b8e3b-2833-4537-808c-9db9dfbc947b]   
+[843b8e3b-2833-4537-808c-9db9dfbc947b] ActionController::RoutingError (No route matches [GET] "/"):
+[843b8e3b-2833-4537-808c-9db9dfbc947b]   
+W, [2023-02-08T12:03:53.080848 #5800]  WARN -- : You are running SQLite in production, this is generally not recommended. You can disable this warning by setting "config.active_record.sqlite3_production_warning=false".
+I, [2023-02-08T12:05:18.294058 #5800]  INFO -- : [76e27b16-c9ad-4ed2-9efd-f0b9794c75ca] Started GET "/" for 127.0.0.1 at 2023-02-08 12:05:18 +0530
+F, [2023-02-08T12:05:18.295327 #5800] FATAL -- : [76e27b16-c9ad-4ed2-9efd-f0b9794c75ca]   
+[76e27b16-c9ad-4ed2-9efd-f0b9794c75ca] ActionController::RoutingError (No route matches [GET] "/"):
+[76e27b16-c9ad-4ed2-9efd-f0b9794c75ca]   
+I, [2023-02-08T12:06:03.148907 #5800]  INFO -- : [cedaa58c-44a3-4fbf-81ef-1eb8b72c3f8c] Started GET "/articles" for 127.0.0.1 at 2023-02-08 12:06:03 +0530
+I, [2023-02-08T12:06:03.169948 #5800]  INFO -- : [cedaa58c-44a3-4fbf-81ef-1eb8b72c3f8c] Processing by ArticleController#readAll as HTML
+I, [2023-02-08T12:06:03.177299 #5800]  INFO -- : [cedaa58c-44a3-4fbf-81ef-1eb8b72c3f8c] Completed 500 Internal Server Error in 7ms (ActiveRecord: 1.0ms | Allocations: 1151)
+F, [2023-02-08T12:06:03.177997 #5800] FATAL -- : [cedaa58c-44a3-4fbf-81ef-1eb8b72c3f8c]   
+[cedaa58c-44a3-4fbf-81ef-1eb8b72c3f8c] ActiveRecord::StatementInvalid (SQLite3::SQLException: no such table: articles):
+[cedaa58c-44a3-4fbf-81ef-1eb8b72c3f8c]   
+[cedaa58c-44a3-4fbf-81ef-1eb8b72c3f8c] app/controllers/article_controller.rb:26:in `readAll'
+I, [2023-02-08T12:06:11.050337 #5800]  INFO -- : [b1cc9846-71c0-4e6d-af1a-aef35998c12f] Started GET "/articles" for 127.0.0.1 at 2023-02-08 12:06:11 +0530
+I, [2023-02-08T12:06:11.051224 #5800]  INFO -- : [b1cc9846-71c0-4e6d-af1a-aef35998c12f] Processing by ArticleController#readAll as HTML
+I, [2023-02-08T12:06:11.052938 #5800]  INFO -- : [b1cc9846-71c0-4e6d-af1a-aef35998c12f] Completed 500 Internal Server Error in 2ms (ActiveRecord: 0.6ms | Allocations: 264)
+F, [2023-02-08T12:06:11.053829 #5800] FATAL -- : [b1cc9846-71c0-4e6d-af1a-aef35998c12f]   
+[b1cc9846-71c0-4e6d-af1a-aef35998c12f] ActiveRecord::StatementInvalid (SQLite3::SQLException: no such table: articles):
+[b1cc9846-71c0-4e6d-af1a-aef35998c12f]   
+[b1cc9846-71c0-4e6d-af1a-aef35998c12f] app/controllers/article_controller.rb:26:in `readAll'
+I, [2023-02-08T12:07:02.340883 #5800]  INFO -- : [264a691e-a0dc-45d2-9262-0a78ac80da58] Started GET "/articles" for 127.0.0.1 at 2023-02-08 12:07:02 +0530
+I, [2023-02-08T12:07:02.341700 #5800]  INFO -- : [264a691e-a0dc-45d2-9262-0a78ac80da58] Processing by ArticleController#readAll as HTML
+I, [2023-02-08T12:07:02.342936 #5800]  INFO -- : [264a691e-a0dc-45d2-9262-0a78ac80da58] Completed 500 Internal Server Error in 1ms (ActiveRecord: 0.5ms | Allocations: 261)
+F, [2023-02-08T12:07:02.343746 #5800] FATAL -- : [264a691e-a0dc-45d2-9262-0a78ac80da58]   
+[264a691e-a0dc-45d2-9262-0a78ac80da58] ActiveRecord::StatementInvalid (SQLite3::SQLException: no such table: articles):
+[264a691e-a0dc-45d2-9262-0a78ac80da58]   
+[264a691e-a0dc-45d2-9262-0a78ac80da58] app/controllers/article_controller.rb:26:in `readAll'
+I, [2023-02-08T12:08:02.041062 #5800]  INFO -- : [6390639b-4b2f-4e9d-9d93-8235fd5ef92b] Started GET "/" for 127.0.0.1 at 2023-02-08 12:08:02 +0530
+F, [2023-02-08T12:08:02.041558 #5800] FATAL -- : [6390639b-4b2f-4e9d-9d93-8235fd5ef92b]   
+[6390639b-4b2f-4e9d-9d93-8235fd5ef92b] ActionController::RoutingError (No route matches [GET] "/"):
+[6390639b-4b2f-4e9d-9d93-8235fd5ef92b]   
+I, [2023-02-08T12:08:17.125158 #5800]  INFO -- : [ad4f7040-6188-4027-8921-c7fa505b80fa] Started GET "/articles" for 127.0.0.1 at 2023-02-08 12:08:17 +0530
+I, [2023-02-08T12:08:17.125991 #5800]  INFO -- : [ad4f7040-6188-4027-8921-c7fa505b80fa] Processing by ArticleController#readAll as HTML
+I, [2023-02-08T12:08:17.128384 #5800]  INFO -- : [ad4f7040-6188-4027-8921-c7fa505b80fa] Completed 500 Internal Server Error in 2ms (ActiveRecord: 1.0ms | Allocations: 246)
+F, [2023-02-08T12:08:17.129701 #5800] FATAL -- : [ad4f7040-6188-4027-8921-c7fa505b80fa]   
+[ad4f7040-6188-4027-8921-c7fa505b80fa] ActiveRecord::StatementInvalid (SQLite3::SQLException: no such table: articles):
+[ad4f7040-6188-4027-8921-c7fa505b80fa]   
+[ad4f7040-6188-4027-8921-c7fa505b80fa] app/controllers/article_controller.rb:26:in `readAll'
+I, [2023-02-08T12:11:11.018358 #5800]  INFO -- : [eb1ec928-f216-40a6-a9ff-92ca6dae33b3] Started GET "/articles" for 10.10.13.218 at 2023-02-08 12:11:11 +0530
+I, [2023-02-08T12:11:11.020969 #5800]  INFO -- : [eb1ec928-f216-40a6-a9ff-92ca6dae33b3] Processing by ArticleController#readAll as HTML
+I, [2023-02-08T12:11:11.024359 #5800]  INFO -- : [eb1ec928-f216-40a6-a9ff-92ca6dae33b3] Completed 500 Internal Server Error in 3ms (ActiveRecord: 1.4ms | Allocations: 246)
+F, [2023-02-08T12:11:11.025752 #5800] FATAL -- : [eb1ec928-f216-40a6-a9ff-92ca6dae33b3]   
+[eb1ec928-f216-40a6-a9ff-92ca6dae33b3] ActiveRecord::StatementInvalid (SQLite3::SQLException: no such table: articles):
+[eb1ec928-f216-40a6-a9ff-92ca6dae33b3]   
+[eb1ec928-f216-40a6-a9ff-92ca6dae33b3] app/controllers/article_controller.rb:26:in `readAll'
+I, [2023-02-08T12:11:11.045357 #5800]  INFO -- : [1060c548-d47a-41c3-9d03-ceb11f473cc9] Started GET "/favicon.ico" for 10.10.13.218 at 2023-02-08 12:11:11 +0530
+F, [2023-02-08T12:11:11.045911 #5800] FATAL -- : [1060c548-d47a-41c3-9d03-ceb11f473cc9]   
+[1060c548-d47a-41c3-9d03-ceb11f473cc9] ActionController::RoutingError (No route matches [GET] "/favicon.ico"):
+[1060c548-d47a-41c3-9d03-ceb11f473cc9]   
+W, [2023-02-08T12:13:01.572220 #5924]  WARN -- : You are running SQLite in production, this is generally not recommended. You can disable this warning by setting "config.active_record.sqlite3_production_warning=false".
+I, [2023-02-08T12:13:01.607302 #5924]  INFO -- : Migrating to CreateArticles (20230207105452)
+I, [2023-02-08T12:13:01.613115 #5924]  INFO -- : Migrating to CreateCategories (20230207105554)
+I, [2023-02-08T12:13:01.615872 #5924]  INFO -- : Migrating to CreateComments (20230207105740)
+I, [2023-02-08T12:13:01.618872 #5924]  INFO -- : Migrating to CreateUsers (20230207112907)
+I, [2023-02-08T12:13:01.621806 #5924]  INFO -- : Migrating to CreateArticleCategories (20230207140618)
+I, [2023-02-08T12:13:01.623687 #5924]  INFO -- : Migrating to CreateLikes (20230207173210)
+W, [2023-02-08T12:13:05.671762 #5959]  WARN -- : You are running SQLite in production, this is generally not recommended. You can disable this warning by setting "config.active_record.sqlite3_production_warning=false".
+I, [2023-02-08T12:13:08.758604 #5959]  INFO -- : [777be3ed-920b-418a-876d-dd712d0eae3d] Started GET "/articles" for 10.10.13.218 at 2023-02-08 12:13:08 +0530
+I, [2023-02-08T12:13:08.760123 #5959]  INFO -- : [777be3ed-920b-418a-876d-dd712d0eae3d] Processing by ArticleController#readAll as HTML
+I, [2023-02-08T12:13:08.766506 #5959]  INFO -- : [777be3ed-920b-418a-876d-dd712d0eae3d] Completed 200 OK in 6ms (Views: 5.0ms | ActiveRecord: 1.4ms | Allocations: 1111)
+I, [2023-02-08T12:14:38.842255 #5959]  INFO -- : [4381d977-42f1-410d-ab0f-398a2b0f9975] Started GET "/articles" for 10.10.13.223 at 2023-02-08 12:14:38 +0530
+I, [2023-02-08T12:14:38.843919 #5959]  INFO -- : [4381d977-42f1-410d-ab0f-398a2b0f9975] Processing by ArticleController#readAll as HTML
+I, [2023-02-08T12:14:38.845787 #5959]  INFO -- : [4381d977-42f1-410d-ab0f-398a2b0f9975] Completed 200 OK in 2ms (Views: 1.0ms | ActiveRecord: 0.3ms | Allocations: 174)
+I, [2023-02-08T12:14:39.360621 #5959]  INFO -- : [241c237b-8310-4952-ba3d-13546247fce6] Started GET "/articles" for 10.10.13.223 at 2023-02-08 12:14:39 +0530
+I, [2023-02-08T12:14:39.362587 #5959]  INFO -- : [241c237b-8310-4952-ba3d-13546247fce6] Processing by ArticleController#readAll as HTML
+I, [2023-02-08T12:14:39.364610 #5959]  INFO -- : [241c237b-8310-4952-ba3d-13546247fce6] Completed 200 OK in 2ms (Views: 1.0ms | ActiveRecord: 0.3ms | Allocations: 172)
+I, [2023-02-08T12:15:17.338820 #5959]  INFO -- : [1c442975-93a6-4478-8d18-0a99de16c2f8] Started GET "/articles" for 10.10.13.223 at 2023-02-08 12:15:17 +0530
+I, [2023-02-08T12:15:17.341871 #5959]  INFO -- : [1c442975-93a6-4478-8d18-0a99de16c2f8] Processing by ArticleController#readAll as HTML
+I, [2023-02-08T12:15:17.344575 #5959]  INFO -- : [1c442975-93a6-4478-8d18-0a99de16c2f8] Completed 200 OK in 2ms (Views: 1.2ms | ActiveRecord: 0.8ms | Allocations: 155)
+I, [2023-02-08T12:15:28.767152 #5959]  INFO -- : [0c0b80f3-08fa-4d7d-860f-d2041526147b] Started GET "/articles" for 10.10.13.223 at 2023-02-08 12:15:28 +0530
+I, [2023-02-08T12:15:28.768966 #5959]  INFO -- : [0c0b80f3-08fa-4d7d-860f-d2041526147b] Processing by ArticleController#readAll as HTML
+I, [2023-02-08T12:15:28.771139 #5959]  INFO -- : [0c0b80f3-08fa-4d7d-860f-d2041526147b] Completed 200 OK in 2ms (Views: 1.2ms | ActiveRecord: 0.3ms | Allocations: 155)
+I, [2023-02-08T12:15:28.836855 #5959]  INFO -- : [e96a69a9-e03a-4e09-a62f-76e9dd2ab945] Started GET "/articles" for 10.10.13.223 at 2023-02-08 12:15:28 +0530
+I, [2023-02-08T12:15:28.838130 #5959]  INFO -- : [e96a69a9-e03a-4e09-a62f-76e9dd2ab945] Processing by ArticleController#readAll as HTML
+I, [2023-02-08T12:15:28.839628 #5959]  INFO -- : [e96a69a9-e03a-4e09-a62f-76e9dd2ab945] Completed 200 OK in 1ms (Views: 0.7ms | ActiveRecord: 0.2ms | Allocations: 155)
+I, [2023-02-08T12:16:37.284805 #5959]  INFO -- : [def8efab-c31b-4fe6-bd3e-1d6ceb88d815] Started GET "/articles" for 10.10.13.223 at 2023-02-08 12:16:37 +0530
+I, [2023-02-08T12:16:37.287007 #5959]  INFO -- : [def8efab-c31b-4fe6-bd3e-1d6ceb88d815] Processing by ArticleController#readAll as HTML
+I, [2023-02-08T12:16:37.289126 #5959]  INFO -- : [def8efab-c31b-4fe6-bd3e-1d6ceb88d815] Completed 200 OK in 2ms (Views: 1.1ms | ActiveRecord: 0.3ms | Allocations: 172)
+I, [2023-02-08T12:17:19.248159 #5959]  INFO -- : [58c8977a-78f5-4cc1-b2f2-e5234de7df73] Started GET "/articles" for 10.10.13.223 at 2023-02-08 12:17:19 +0530
+I, [2023-02-08T12:17:19.250932 #5959]  INFO -- : [58c8977a-78f5-4cc1-b2f2-e5234de7df73] Processing by ArticleController#readAll as HTML
+I, [2023-02-08T12:17:19.253109 #5959]  INFO -- : [58c8977a-78f5-4cc1-b2f2-e5234de7df73] Completed 200 OK in 2ms (Views: 1.2ms | ActiveRecord: 0.4ms | Allocations: 155)
+I, [2023-02-08T12:17:20.043496 #5959]  INFO -- : [8d09544c-faf1-4b15-88c1-25551083f9f4] Started GET "/articles" for 10.10.13.223 at 2023-02-08 12:17:20 +0530
+I, [2023-02-08T12:17:20.045326 #5959]  INFO -- : [8d09544c-faf1-4b15-88c1-25551083f9f4] Processing by ArticleController#readAll as HTML
+I, [2023-02-08T12:17:20.047356 #5959]  INFO -- : [8d09544c-faf1-4b15-88c1-25551083f9f4] Completed 200 OK in 2ms (Views: 1.1ms | ActiveRecord: 0.3ms | Allocations: 155)
+I, [2023-02-08T12:17:49.665497 #5959]  INFO -- : [1e933ce1-a6eb-4d38-a571-ea8de3f5b8ea] Started GET "/articles" for 10.10.13.218 at 2023-02-08 12:17:49 +0530
+I, [2023-02-08T12:17:49.666251 #5959]  INFO -- : [1e933ce1-a6eb-4d38-a571-ea8de3f5b8ea] Processing by ArticleController#readAll as */*
+I, [2023-02-08T12:17:49.667078 #5959]  INFO -- : [1e933ce1-a6eb-4d38-a571-ea8de3f5b8ea] Completed 200 OK in 1ms (Views: 0.4ms | ActiveRecord: 0.2ms | Allocations: 177)
+I, [2023-02-08T12:20:27.741020 #5959]  INFO -- : [2a3750a0-60f0-4cd6-b830-61cf032056ab] Started GET "/articles" for 10.10.13.223 at 2023-02-08 12:20:27 +0530
+I, [2023-02-08T12:20:27.743999 #5959]  INFO -- : [2a3750a0-60f0-4cd6-b830-61cf032056ab] Processing by ArticleController#readAll as HTML
+I, [2023-02-08T12:20:27.746562 #5959]  INFO -- : [2a3750a0-60f0-4cd6-b830-61cf032056ab] Completed 200 OK in 2ms (Views: 1.2ms | ActiveRecord: 0.7ms | Allocations: 155)
+I, [2023-02-08T12:20:35.790233 #5959]  INFO -- : [8972892f-01ee-4e24-89b5-26e6d528ee52] Started GET "/articles" for 10.10.13.223 at 2023-02-08 12:20:35 +0530
+I, [2023-02-08T12:20:35.791508 #5959]  INFO -- : [8972892f-01ee-4e24-89b5-26e6d528ee52] Processing by ArticleController#readAll as HTML
+I, [2023-02-08T12:20:35.792602 #5959]  INFO -- : [8972892f-01ee-4e24-89b5-26e6d528ee52] Completed 200 OK in 1ms (Views: 0.6ms | ActiveRecord: 0.2ms | Allocations: 155)
+I, [2023-02-08T12:20:38.890565 #5959]  INFO -- : [776eff7b-dae6-4701-beab-37c1b955801a] Started GET "/articles" for 10.10.13.223 at 2023-02-08 12:20:38 +0530
+I, [2023-02-08T12:20:38.892447 #5959]  INFO -- : [776eff7b-dae6-4701-beab-37c1b955801a] Processing by ArticleController#readAll as HTML
+I, [2023-02-08T12:20:38.894257 #5959]  INFO -- : [776eff7b-dae6-4701-beab-37c1b955801a] Completed 200 OK in 2ms (Views: 0.9ms | ActiveRecord: 0.3ms | Allocations: 155)
+I, [2023-02-08T12:20:42.394462 #5959]  INFO -- : [55dc03dd-c4f6-432f-b7c3-9e6051a90750] Started GET "/articles" for 10.10.13.223 at 2023-02-08 12:20:42 +0530
+I, [2023-02-08T12:20:42.396454 #5959]  INFO -- : [55dc03dd-c4f6-432f-b7c3-9e6051a90750] Processing by ArticleController#readAll as HTML
+I, [2023-02-08T12:20:42.398728 #5959]  INFO -- : [55dc03dd-c4f6-432f-b7c3-9e6051a90750] Completed 200 OK in 2ms (Views: 1.2ms | ActiveRecord: 0.4ms | Allocations: 155)
+I, [2023-02-08T12:20:42.409321 #5959]  INFO -- : [2e879582-8f52-4c60-b7cf-bd0644bd7b19] Started GET "/articles" for 10.10.13.223 at 2023-02-08 12:20:42 +0530
+I, [2023-02-08T12:20:42.410290 #5959]  INFO -- : [2e879582-8f52-4c60-b7cf-bd0644bd7b19] Processing by ArticleController#readAll as HTML
+I, [2023-02-08T12:20:42.411442 #5959]  INFO -- : [2e879582-8f52-4c60-b7cf-bd0644bd7b19] Completed 200 OK in 1ms (Views: 0.6ms | ActiveRecord: 0.2ms | Allocations: 155)
+I, [2023-02-08T12:20:46.047186 #5959]  INFO -- : [5dff103a-2f09-4bba-9f9e-2e688a8d9b2f] Started GET "/articles" for 10.10.13.223 at 2023-02-08 12:20:46 +0530
+I, [2023-02-08T12:20:46.049271 #5959]  INFO -- : [5dff103a-2f09-4bba-9f9e-2e688a8d9b2f] Processing by ArticleController#readAll as HTML
+I, [2023-02-08T12:20:46.050865 #5959]  INFO -- : [5dff103a-2f09-4bba-9f9e-2e688a8d9b2f] Completed 200 OK in 1ms (Views: 0.8ms | ActiveRecord: 0.3ms | Allocations: 155)
+I, [2023-02-08T12:20:46.059628 #5959]  INFO -- : [9d48c137-6369-4258-b342-c6b27aa3b570] Started GET "/articles" for 10.10.13.223 at 2023-02-08 12:20:46 +0530
+I, [2023-02-08T12:20:46.060143 #5959]  INFO -- : [9d48c137-6369-4258-b342-c6b27aa3b570] Processing by ArticleController#readAll as HTML
+I, [2023-02-08T12:20:46.060799 #5959]  INFO -- : [9d48c137-6369-4258-b342-c6b27aa3b570] Completed 200 OK in 1ms (Views: 0.3ms | ActiveRecord: 0.1ms | Allocations: 155)
+I, [2023-02-08T12:20:49.940554 #5959]  INFO -- : [3c78ab4a-4845-464f-a1fc-3d0b81000105] Started GET "/articles" for 10.10.13.223 at 2023-02-08 12:20:49 +0530
+I, [2023-02-08T12:20:49.942321 #5959]  INFO -- : [3c78ab4a-4845-464f-a1fc-3d0b81000105] Processing by ArticleController#readAll as HTML
+I, [2023-02-08T12:20:49.944457 #5959]  INFO -- : [3c78ab4a-4845-464f-a1fc-3d0b81000105] Completed 200 OK in 2ms (Views: 1.2ms | ActiveRecord: 0.3ms | Allocations: 155)
+I, [2023-02-08T12:20:51.452665 #5959]  INFO -- : [022adfac-e20a-45bf-bb84-3c1dd57f41a9] Started GET "/articles" for 10.10.13.223 at 2023-02-08 12:20:51 +0530
+I, [2023-02-08T12:20:51.454050 #5959]  INFO -- : [022adfac-e20a-45bf-bb84-3c1dd57f41a9] Processing by ArticleController#readAll as HTML
+I, [2023-02-08T12:20:51.455473 #5959]  INFO -- : [022adfac-e20a-45bf-bb84-3c1dd57f41a9] Completed 200 OK in 1ms (Views: 0.6ms | ActiveRecord: 0.2ms | Allocations: 155)
+I, [2023-02-08T12:20:55.567103 #5959]  INFO -- : [a768ab65-cfed-4df3-8221-6a91ed41a44b] Started GET "/articles" for 10.10.13.223 at 2023-02-08 12:20:55 +0530
+I, [2023-02-08T12:20:55.569063 #5959]  INFO -- : [a768ab65-cfed-4df3-8221-6a91ed41a44b] Processing by ArticleController#readAll as HTML
+I, [2023-02-08T12:20:55.571124 #5959]  INFO -- : [a768ab65-cfed-4df3-8221-6a91ed41a44b] Completed 200 OK in 2ms (Views: 1.1ms | ActiveRecord: 0.3ms | Allocations: 155)
+I, [2023-02-08T12:20:55.594427 #5959]  INFO -- : [49d8004a-fd92-49b6-ba0c-d4e8820b52ec] Started GET "/articles" for 10.10.13.223 at 2023-02-08 12:20:55 +0530
+I, [2023-02-08T12:20:55.595534 #5959]  INFO -- : [49d8004a-fd92-49b6-ba0c-d4e8820b52ec] Processing by ArticleController#readAll as HTML
+I, [2023-02-08T12:20:55.596548 #5959]  INFO -- : [49d8004a-fd92-49b6-ba0c-d4e8820b52ec] Completed 200 OK in 1ms (Views: 0.5ms | ActiveRecord: 0.1ms | Allocations: 155)
+I, [2023-02-08T12:20:59.349663 #5959]  INFO -- : [885d7f38-48d7-4833-924f-4bc5864dcc6a] Started GET "/articles" for 10.10.13.223 at 2023-02-08 12:20:59 +0530
+I, [2023-02-08T12:20:59.351022 #5959]  INFO -- : [885d7f38-48d7-4833-924f-4bc5864dcc6a] Processing by ArticleController#readAll as HTML
+I, [2023-02-08T12:20:59.352277 #5959]  INFO -- : [885d7f38-48d7-4833-924f-4bc5864dcc6a] Completed 200 OK in 1ms (Views: 0.6ms | ActiveRecord: 0.2ms | Allocations: 155)
+I, [2023-02-08T12:20:59.481187 #5959]  INFO -- : [91979104-c054-4a15-830e-479e77498bb0] Started GET "/articles" for 10.10.13.223 at 2023-02-08 12:20:59 +0530
+I, [2023-02-08T12:20:59.502337 #5959]  INFO -- : [91979104-c054-4a15-830e-479e77498bb0] Processing by ArticleController#readAll as HTML
+I, [2023-02-08T12:20:59.503266 #5959]  INFO -- : [91979104-c054-4a15-830e-479e77498bb0] Completed 200 OK in 1ms (Views: 0.4ms | ActiveRecord: 0.1ms | Allocations: 156)
+I, [2023-02-08T12:21:01.310164 #5959]  INFO -- : [65154e4b-a1f5-4cb7-ab66-b2c2ef97fcef] Started GET "/articles" for 10.10.13.223 at 2023-02-08 12:21:01 +0530
+I, [2023-02-08T12:21:01.310633 #5959]  INFO -- : [65154e4b-a1f5-4cb7-ab66-b2c2ef97fcef] Processing by ArticleController#readAll as HTML
+I, [2023-02-08T12:21:01.311213 #5959]  INFO -- : [65154e4b-a1f5-4cb7-ab66-b2c2ef97fcef] Completed 200 OK in 1ms (Views: 0.3ms | ActiveRecord: 0.1ms | Allocations: 155)
+I, [2023-02-08T12:21:01.317440 #5959]  INFO -- : [8f37bdba-9bc5-427d-985f-72b6861655a0] Started GET "/articles" for 10.10.13.223 at 2023-02-08 12:21:01 +0530
+I, [2023-02-08T12:21:01.317785 #5959]  INFO -- : [8f37bdba-9bc5-427d-985f-72b6861655a0] Processing by ArticleController#readAll as HTML
+I, [2023-02-08T12:21:01.318218 #5959]  INFO -- : [8f37bdba-9bc5-427d-985f-72b6861655a0] Completed 200 OK in 0ms (Views: 0.2ms | ActiveRecord: 0.1ms | Allocations: 155)
+I, [2023-02-08T12:23:24.118999 #5959]  INFO -- : [22a2ce9a-3149-4107-aa44-e71f37b37743] Started GET "/articles" for 10.10.13.223 at 2023-02-08 12:23:24 +0530
+I, [2023-02-08T12:23:24.120850 #5959]  INFO -- : [22a2ce9a-3149-4107-aa44-e71f37b37743] Processing by ArticleController#readAll as HTML
+I, [2023-02-08T12:23:24.121769 #5959]  INFO -- : [22a2ce9a-3149-4107-aa44-e71f37b37743] Completed 200 OK in 1ms (Views: 0.5ms | ActiveRecord: 0.2ms | Allocations: 155)
+I, [2023-02-08T12:23:24.790150 #5959]  INFO -- : [6b57534e-b445-47ca-8440-9d699911a55b] Started GET "/articles" for 10.10.13.223 at 2023-02-08 12:23:24 +0530
+I, [2023-02-08T12:23:24.791328 #5959]  INFO -- : [6b57534e-b445-47ca-8440-9d699911a55b] Processing by ArticleController#readAll as HTML
+I, [2023-02-08T12:23:24.792745 #5959]  INFO -- : [6b57534e-b445-47ca-8440-9d699911a55b] Completed 200 OK in 1ms (Views: 0.7ms | ActiveRecord: 0.2ms | Allocations: 155)
+I, [2023-02-08T12:24:07.558506 #5959]  INFO -- : [0fd83ce4-69fd-4517-9f98-b01178b37adb] Started POST "/user/create" for 10.10.13.218 at 2023-02-08 12:24:07 +0530
+I, [2023-02-08T12:24:07.559341 #5959]  INFO -- : [0fd83ce4-69fd-4517-9f98-b01178b37adb] Processing by UserController#create as */*
+I, [2023-02-08T12:24:07.559394 #5959]  INFO -- : [0fd83ce4-69fd-4517-9f98-b01178b37adb]   Parameters: {"name"=>"abc", "username"=>"abc_123", "email"=>"abc@gmail.com", "password_digest"=>"[FILTERED]"}
+I, [2023-02-08T12:24:07.570364 #5959]  INFO -- : [0fd83ce4-69fd-4517-9f98-b01178b37adb] Completed 200 OK in 11ms (Views: 0.2ms | ActiveRecord: 1.5ms | Allocations: 6260)
+I, [2023-02-08T12:25:10.577119 #5959]  INFO -- : [d21c4dc3-6644-4999-b765-e4a319046211] Started POST "/user/create" for 10.10.13.218 at 2023-02-08 12:25:10 +0530
+I, [2023-02-08T12:25:10.577836 #5959]  INFO -- : [d21c4dc3-6644-4999-b765-e4a319046211] Processing by UserController#create as */*
+I, [2023-02-08T12:25:10.577883 #5959]  INFO -- : [d21c4dc3-6644-4999-b765-e4a319046211]   Parameters: {"name"=>"def", "username"=>"def_123", "email"=>"def@gmail.com", "password"=>"[FILTERED]"}
+I, [2023-02-08T12:25:10.580554 #5959]  INFO -- : [d21c4dc3-6644-4999-b765-e4a319046211] Completed 200 OK in 3ms (Views: 0.3ms | ActiveRecord: 1.3ms | Allocations: 487)
+I, [2023-02-08T12:25:42.514966 #5959]  INFO -- : [b120daca-754f-49b1-9e89-2be4ead81312] Started POST "/user/create" for 10.10.13.218 at 2023-02-08 12:25:42 +0530
+I, [2023-02-08T12:25:42.515756 #5959]  INFO -- : [b120daca-754f-49b1-9e89-2be4ead81312] Processing by UserController#create as */*
+I, [2023-02-08T12:25:42.515827 #5959]  INFO -- : [b120daca-754f-49b1-9e89-2be4ead81312]   Parameters: {"name"=>"ghi", "username"=>"ghi_123", "email"=>"ghi@gmail.com", "password"=>"[FILTERED]"}
+I, [2023-02-08T12:25:42.518810 #5959]  INFO -- : [b120daca-754f-49b1-9e89-2be4ead81312] Completed 200 OK in 3ms (Views: 0.3ms | ActiveRecord: 1.5ms | Allocations: 487)
+I, [2023-02-08T12:35:48.968358 #5959]  INFO -- : [84686372-067e-423d-97ad-c6672063f931] Started GET "/articles" for 10.10.13.218 at 2023-02-08 12:35:48 +0530
+I, [2023-02-08T12:35:48.974199 #5959]  INFO -- : [84686372-067e-423d-97ad-c6672063f931] Processing by ArticleController#readAll as HTML
+I, [2023-02-08T12:35:48.980548 #5959]  INFO -- : [84686372-067e-423d-97ad-c6672063f931] Completed 200 OK in 6ms (Views: 4.7ms | ActiveRecord: 1.0ms | Allocations: 305)
+I, [2023-02-08T12:35:48.993283 #5959]  INFO -- : [bf0e3181-4723-4e8b-baf4-2d959220b030] Started GET "/apple-touch-icon-precomposed.png" for 10.10.13.218 at 2023-02-08 12:35:48 +0530
+F, [2023-02-08T12:35:48.994654 #5959] FATAL -- : [bf0e3181-4723-4e8b-baf4-2d959220b030]   
+[bf0e3181-4723-4e8b-baf4-2d959220b030] ActionController::RoutingError (No route matches [GET] "/apple-touch-icon-precomposed.png"):
+[bf0e3181-4723-4e8b-baf4-2d959220b030]   
+I, [2023-02-08T12:35:48.997440 #5959]  INFO -- : [c598223c-337b-44c5-b4f0-c8a0e6b8fafc] Started GET "/apple-touch-icon.png" for 10.10.13.218 at 2023-02-08 12:35:48 +0530
+F, [2023-02-08T12:35:48.997891 #5959] FATAL -- : [c598223c-337b-44c5-b4f0-c8a0e6b8fafc]   
+[c598223c-337b-44c5-b4f0-c8a0e6b8fafc] ActionController::RoutingError (No route matches [GET] "/apple-touch-icon.png"):
+[c598223c-337b-44c5-b4f0-c8a0e6b8fafc]   
+I, [2023-02-08T12:35:48.998997 #5959]  INFO -- : [b46336b1-0c3d-4255-ab45-ece3c5e47881] Started GET "/favicon.ico" for 10.10.13.218 at 2023-02-08 12:35:48 +0530
+F, [2023-02-08T12:35:48.999328 #5959] FATAL -- : [b46336b1-0c3d-4255-ab45-ece3c5e47881]   
+[b46336b1-0c3d-4255-ab45-ece3c5e47881] ActionController::RoutingError (No route matches [GET] "/favicon.ico"):
+[b46336b1-0c3d-4255-ab45-ece3c5e47881]   
+I, [2023-02-08T12:35:49.000307 #5959]  INFO -- : [9218503e-dd79-4538-8822-2ed19c5a6d55] Started GET "/apple-touch-icon-precomposed.png" for 10.10.13.218 at 2023-02-08 12:35:49 +0530
+F, [2023-02-08T12:35:49.000602 #5959] FATAL -- : [9218503e-dd79-4538-8822-2ed19c5a6d55]   
+[9218503e-dd79-4538-8822-2ed19c5a6d55] ActionController::RoutingError (No route matches [GET] "/apple-touch-icon-precomposed.png"):
+[9218503e-dd79-4538-8822-2ed19c5a6d55]   
+I, [2023-02-08T12:35:49.001611 #5959]  INFO -- : [d8e0e940-3b8c-48ed-bc75-67a022022a0a] Started GET "/apple-touch-icon.png" for 10.10.13.218 at 2023-02-08 12:35:49 +0530
+F, [2023-02-08T12:35:49.001892 #5959] FATAL -- : [d8e0e940-3b8c-48ed-bc75-67a022022a0a]   
+[d8e0e940-3b8c-48ed-bc75-67a022022a0a] ActionController::RoutingError (No route matches [GET] "/apple-touch-icon.png"):
+[d8e0e940-3b8c-48ed-bc75-67a022022a0a]   
+I, [2023-02-08T12:35:49.002994 #5959]  INFO -- : [9831e8c3-929e-4616-b870-3eb3e7233125] Started GET "/favicon.ico" for 10.10.13.218 at 2023-02-08 12:35:49 +0530
+F, [2023-02-08T12:35:49.003450 #5959] FATAL -- : [9831e8c3-929e-4616-b870-3eb3e7233125]   
+[9831e8c3-929e-4616-b870-3eb3e7233125] ActionController::RoutingError (No route matches [GET] "/favicon.ico"):
+[9831e8c3-929e-4616-b870-3eb3e7233125]   
+I, [2023-02-08T12:35:49.010353 #5959]  INFO -- : [8f5e5e8c-efb2-4c01-af0e-c158df6a1342] Started GET "/articles" for 10.10.13.218 at 2023-02-08 12:35:49 +0530
+I, [2023-02-08T12:35:49.011376 #5959]  INFO -- : [8f5e5e8c-efb2-4c01-af0e-c158df6a1342] Processing by ArticleController#readAll as HTML
+I, [2023-02-08T12:35:49.012528 #5959]  INFO -- : [8f5e5e8c-efb2-4c01-af0e-c158df6a1342] Completed 200 OK in 1ms (Views: 0.7ms | ActiveRecord: 0.2ms | Allocations: 155)
+I, [2023-02-08T12:35:49.048280 #5959]  INFO -- : [8c6e4541-103d-41b4-9588-c489a466019b] Started GET "/apple-touch-icon-precomposed.png" for 10.10.13.218 at 2023-02-08 12:35:49 +0530
+F, [2023-02-08T12:35:49.048680 #5959] FATAL -- : [8c6e4541-103d-41b4-9588-c489a466019b]   
+[8c6e4541-103d-41b4-9588-c489a466019b] ActionController::RoutingError (No route matches [GET] "/apple-touch-icon-precomposed.png"):
+[8c6e4541-103d-41b4-9588-c489a466019b]   
+I, [2023-02-08T12:35:49.049778 #5959]  INFO -- : [5c2e4f1c-3a4d-492e-b513-f0a1bfc02156] Started GET "/apple-touch-icon.png" for 10.10.13.218 at 2023-02-08 12:35:49 +0530
+F, [2023-02-08T12:35:49.050025 #5959] FATAL -- : [5c2e4f1c-3a4d-492e-b513-f0a1bfc02156]   
+[5c2e4f1c-3a4d-492e-b513-f0a1bfc02156] ActionController::RoutingError (No route matches [GET] "/apple-touch-icon.png"):
+[5c2e4f1c-3a4d-492e-b513-f0a1bfc02156]   
+I, [2023-02-08T12:35:49.050877 #5959]  INFO -- : [da11d831-00f9-463b-ad26-12cf4f49748e] Started GET "/favicon.ico" for 10.10.13.218 at 2023-02-08 12:35:49 +0530
+F, [2023-02-08T12:35:49.051113 #5959] FATAL -- : [da11d831-00f9-463b-ad26-12cf4f49748e]   
+[da11d831-00f9-463b-ad26-12cf4f49748e] ActionController::RoutingError (No route matches [GET] "/favicon.ico"):
+[da11d831-00f9-463b-ad26-12cf4f49748e]   
+I, [2023-02-08T12:35:49.051975 #5959]  INFO -- : [ed497d26-aafc-4ec0-9926-fdf0f6eec49e] Started GET "/apple-touch-icon-precomposed.png" for 10.10.13.218 at 2023-02-08 12:35:49 +0530
+F, [2023-02-08T12:35:49.052267 #5959] FATAL -- : [ed497d26-aafc-4ec0-9926-fdf0f6eec49e]   
+[ed497d26-aafc-4ec0-9926-fdf0f6eec49e] ActionController::RoutingError (No route matches [GET] "/apple-touch-icon-precomposed.png"):
+[ed497d26-aafc-4ec0-9926-fdf0f6eec49e]   
+I, [2023-02-08T12:35:49.053197 #5959]  INFO -- : [6b77b958-9d54-4fd0-86f6-dbec02228997] Started GET "/apple-touch-icon.png" for 10.10.13.218 at 2023-02-08 12:35:49 +0530
+F, [2023-02-08T12:35:49.053532 #5959] FATAL -- : [6b77b958-9d54-4fd0-86f6-dbec02228997]   
+[6b77b958-9d54-4fd0-86f6-dbec02228997] ActionController::RoutingError (No route matches [GET] "/apple-touch-icon.png"):
+[6b77b958-9d54-4fd0-86f6-dbec02228997]   
+I, [2023-02-08T12:35:49.054663 #5959]  INFO -- : [3033827b-7c47-4900-9db5-be9421047875] Started GET "/favicon.ico" for 10.10.13.218 at 2023-02-08 12:35:49 +0530
+F, [2023-02-08T12:35:49.055073 #5959] FATAL -- : [3033827b-7c47-4900-9db5-be9421047875]   
+[3033827b-7c47-4900-9db5-be9421047875] ActionController::RoutingError (No route matches [GET] "/favicon.ico"):
+[3033827b-7c47-4900-9db5-be9421047875]   
+I, [2023-02-08T12:36:40.388106 #5959]  INFO -- : [a367124d-7d2c-475d-981a-28e9949af762] Started POST "/article" for 10.10.13.218 at 2023-02-08 12:36:40 +0530
+F, [2023-02-08T12:36:40.389842 #5959] FATAL -- : [a367124d-7d2c-475d-981a-28e9949af762]   
+[a367124d-7d2c-475d-981a-28e9949af762] ActionController::RoutingError (No route matches [POST] "/article"):
+[a367124d-7d2c-475d-981a-28e9949af762]   
+I, [2023-02-08T12:37:57.949568 #5959]  INFO -- : [eec9e2dc-a7cb-42ca-8b5e-007f1074a9d8] Started POST "/article/create" for 10.10.13.218 at 2023-02-08 12:37:57 +0530
+I, [2023-02-08T12:37:57.950713 #5959]  INFO -- : [eec9e2dc-a7cb-42ca-8b5e-007f1074a9d8] Processing by ArticleController#create as */*
+I, [2023-02-08T12:37:57.950781 #5959]  INFO -- : [eec9e2dc-a7cb-42ca-8b5e-007f1074a9d8]   Parameters: {"title"=>"UX review presentations", "content"=>"Mi tincidunt elit, id quisque ligula ac diam, amet. Vel etiam suspendisse morbi eleifend faucibus eget vestibulum felis. Dictum quis montes, sit sit. Tellus aliquam enim urna, etiam. Mauris posuere vulputate arcu amet, vitae nisi, tellus tincidunt. At feugiat sapien varius id.Eget quis mi enim, leo lacinia pharetra, semper. Eget in volutpat mollis at volutpat lectus velit, sed auctor. Porttitor fames arcu quis fusce augue enim. Quis at habitant diam at. Suscipit tristique risus, at donec. In turpis vel et quam imperdiet. Ipsum molestie aliquet sodales id est ac volutpat,Dolor enim eu tortor urna sed duis nulla. Aliquam vestibulum, nulla odio nisl vitae. In aliquet pellentesque aenean hac vestibulum turpis mi bibendum diam. Tempor integer aliquam in vitae malesuada fringilla.Elit nisi in eleifend sed nisi. Pulvinar at orci, proin imperdiet commodo consectetur convallis risus. Sed condimentum enim dignissim adipiscing faucibus consequat, urna. Viverra purus et erat auctor aliquam. Risus, volutpat vulputate posuere purus sit congue convallis aliquet. Arcu id augue ut feugiat donec porttitor neque. Mauris, neque ultricies eu vestibulum, bibendum quam lorem id. Dolor lacus, eget nunc lectus in tellus, pharetra, porttitor.Ipsum sit mattis nulla quam nulla. Gravida id gravida ac enim mauris id. Non pellentesque congue eget consectetur turpis. Sapien, dictum molestie sem tempor. Diam elit, orci, tincidunt aenean tempus. Quis velit eget ut tortor tellus. Sed vel, congue felis elit erat nam nibh orci.", "date"=>"2010-01-01", "article_imageURL"=>"https://dpbnri2zg3lc2.cloudfront.net/en/wp-content/uploads/old-blog-uploads/what-does-a-ux-designer-do.jpg", "user_id"=>"2", "author"=>"Olivia Rhye"}
+I, [2023-02-08T12:37:57.972181 #5959]  INFO -- : [eec9e2dc-a7cb-42ca-8b5e-007f1074a9d8] Completed 500 Internal Server Error in 21ms (ActiveRecord: 3.6ms | Allocations: 6285)
+F, [2023-02-08T12:37:57.972728 #5959] FATAL -- : [eec9e2dc-a7cb-42ca-8b5e-007f1074a9d8]   
+[eec9e2dc-a7cb-42ca-8b5e-007f1074a9d8] NoMethodError (undefined method `each' for nil:NilClass):
+[eec9e2dc-a7cb-42ca-8b5e-007f1074a9d8]   
+[eec9e2dc-a7cb-42ca-8b5e-007f1074a9d8] app/controllers/article_controller.rb:16:in `create'
+I, [2023-02-08T12:41:10.032944 #5959]  INFO -- : [a737063e-597e-4603-98ae-17d2947f52aa] Started POST "/article/create" for 10.10.13.218 at 2023-02-08 12:41:10 +0530
+I, [2023-02-08T12:41:10.033712 #5959]  INFO -- : [a737063e-597e-4603-98ae-17d2947f52aa] Processing by ArticleController#create as */*
+I, [2023-02-08T12:41:10.033781 #5959]  INFO -- : [a737063e-597e-4603-98ae-17d2947f52aa]   Parameters: {"title"=>"UX review presentations", "content"=>"Mi tincidunt elit, id quisque ligula ac diam, amet. Vel etiam suspendisse morbi eleifend faucibus eget vestibulum felis. Dictum quis montes, sit sit. Tellus aliquam enim urna, etiam. Mauris posuere vulputate arcu amet, vitae nisi, tellus tincidunt. At feugiat sapien varius id.Eget quis mi enim, leo lacinia pharetra, semper. Eget in volutpat mollis at volutpat lectus velit, sed auctor. Porttitor fames arcu quis fusce augue enim. Quis at habitant diam at. Suscipit tristique risus, at donec. In turpis vel et quam imperdiet. Ipsum molestie aliquet sodales id est ac volutpat,Dolor enim eu tortor urna sed duis nulla. Aliquam vestibulum, nulla odio nisl vitae. In aliquet pellentesque aenean hac vestibulum turpis mi bibendum diam. Tempor integer aliquam in vitae malesuada fringilla.Elit nisi in eleifend sed nisi. Pulvinar at orci, proin imperdiet commodo consectetur convallis risus. Sed condimentum enim dignissim adipiscing faucibus consequat, urna. Viverra purus et erat auctor aliquam. Risus, volutpat vulputate posuere purus sit congue convallis aliquet. Arcu id augue ut feugiat donec porttitor neque. Mauris, neque ultricies eu vestibulum, bibendum quam lorem id. Dolor lacus, eget nunc lectus in tellus, pharetra, porttitor.Ipsum sit mattis nulla quam nulla. Gravida id gravida ac enim mauris id. Non pellentesque congue eget consectetur turpis. Sapien, dictum molestie sem tempor. Diam elit, orci, tincidunt aenean tempus. Quis velit eget ut tortor tellus. Sed vel, congue felis elit erat nam nibh orci.", "date"=>"2010-01-01", "article_imageURL"=>"https://dpbnri2zg3lc2.cloudfront.net/en/wp-content/uploads/old-blog-uploads/what-does-a-ux-designer-do.jpg", "user_id"=>"2", "author"=>"Olivia Rhye", "categories"=>"[1,2]"}
+I, [2023-02-08T12:41:10.042973 #5959]  INFO -- : [a737063e-597e-4603-98ae-17d2947f52aa] Completed 500 Internal Server Error in 9ms (ActiveRecord: 1.8ms | Allocations: 2017)
+F, [2023-02-08T12:41:10.043681 #5959] FATAL -- : [a737063e-597e-4603-98ae-17d2947f52aa]   
+[a737063e-597e-4603-98ae-17d2947f52aa] NoMethodError (undefined method `each' for "[1,2]":String):
+[a737063e-597e-4603-98ae-17d2947f52aa]   
+[a737063e-597e-4603-98ae-17d2947f52aa] app/controllers/article_controller.rb:16:in `create'
+I, [2023-02-08T12:41:49.797279 #5959]  INFO -- : [5d7b2947-de54-49a3-a59f-791cdf171267] Started POST "/article/create" for 10.10.13.218 at 2023-02-08 12:41:49 +0530
+I, [2023-02-08T12:41:49.798257 #5959]  INFO -- : [5d7b2947-de54-49a3-a59f-791cdf171267] Processing by ArticleController#create as */*
+I, [2023-02-08T12:41:49.798352 #5959]  INFO -- : [5d7b2947-de54-49a3-a59f-791cdf171267]   Parameters: {"title"=>"UX review presentations", "content"=>"Mi tincidunt elit, id quisque ligula ac diam, amet. Vel etiam suspendisse morbi eleifend faucibus eget vestibulum felis. Dictum quis montes, sit sit. Tellus aliquam enim urna, etiam. Mauris posuere vulputate arcu amet, vitae nisi, tellus tincidunt. At feugiat sapien varius id.Eget quis mi enim, leo lacinia pharetra, semper. Eget in volutpat mollis at volutpat lectus velit, sed auctor. Porttitor fames arcu quis fusce augue enim. Quis at habitant diam at. Suscipit tristique risus, at donec. In turpis vel et quam imperdiet. Ipsum molestie aliquet sodales id est ac volutpat,Dolor enim eu tortor urna sed duis nulla. Aliquam vestibulum, nulla odio nisl vitae. In aliquet pellentesque aenean hac vestibulum turpis mi bibendum diam. Tempor integer aliquam in vitae malesuada fringilla.Elit nisi in eleifend sed nisi. Pulvinar at orci, proin imperdiet commodo consectetur convallis risus. Sed condimentum enim dignissim adipiscing faucibus consequat, urna. Viverra purus et erat auctor aliquam. Risus, volutpat vulputate posuere purus sit congue convallis aliquet. Arcu id augue ut feugiat donec porttitor neque. Mauris, neque ultricies eu vestibulum, bibendum quam lorem id. Dolor lacus, eget nunc lectus in tellus, pharetra, porttitor.Ipsum sit mattis nulla quam nulla. Gravida id gravida ac enim mauris id. Non pellentesque congue eget consectetur turpis. Sapien, dictum molestie sem tempor. Diam elit, orci, tincidunt aenean tempus. Quis velit eget ut tortor tellus. Sed vel, congue felis elit erat nam nibh orci.", "date"=>"2010-01-01", "article_imageURL"=>"https://dpbnri2zg3lc2.cloudfront.net/en/wp-content/uploads/old-blog-uploads/what-does-a-ux-designer-do.jpg", "user_id"=>"2", "author"=>"Olivia Rhye", "categories"=>"['1','2']"}
+I, [2023-02-08T12:41:49.805828 #5959]  INFO -- : [5d7b2947-de54-49a3-a59f-791cdf171267] Completed 500 Internal Server Error in 7ms (ActiveRecord: 1.8ms | Allocations: 2018)
+F, [2023-02-08T12:41:49.806484 #5959] FATAL -- : [5d7b2947-de54-49a3-a59f-791cdf171267]   
+[5d7b2947-de54-49a3-a59f-791cdf171267] NoMethodError (undefined method `each' for "['1','2']":String):
+[5d7b2947-de54-49a3-a59f-791cdf171267]   
+[5d7b2947-de54-49a3-a59f-791cdf171267] app/controllers/article_controller.rb:16:in `create'
+I, [2023-02-08T12:45:44.896125 #5959]  INFO -- : [c08e7ae0-a03f-4dc1-948c-805fa769bf38] Started POST "/article/create" for 10.10.13.218 at 2023-02-08 12:45:44 +0530
+I, [2023-02-08T12:45:44.898333 #5959]  INFO -- : [c08e7ae0-a03f-4dc1-948c-805fa769bf38] Processing by ArticleController#create as */*
+I, [2023-02-08T12:45:44.899357 #5959]  INFO -- : [c08e7ae0-a03f-4dc1-948c-805fa769bf38] Completed 404 Not Found in 1ms (ActiveRecord: 0.0ms | Allocations: 138)
+F, [2023-02-08T12:45:44.900080 #5959] FATAL -- : [c08e7ae0-a03f-4dc1-948c-805fa769bf38]   
+[c08e7ae0-a03f-4dc1-948c-805fa769bf38] ActiveRecord::RecordNotFound (Couldn't find User without an ID):
+[c08e7ae0-a03f-4dc1-948c-805fa769bf38]   
+[c08e7ae0-a03f-4dc1-948c-805fa769bf38] app/controllers/article_controller.rb:5:in `create'
+I, [2023-02-08T12:46:11.298937 #5959]  INFO -- : [0a7ebc0b-d99d-47c4-a530-34ce99064581] Started POST "/article/create" for 10.10.13.218 at 2023-02-08 12:46:11 +0530
+I, [2023-02-08T12:46:11.299996 #5959]  INFO -- : [0a7ebc0b-d99d-47c4-a530-34ce99064581] Processing by ArticleController#create as */*
+I, [2023-02-08T12:46:11.300957 #5959]  INFO -- : [0a7ebc0b-d99d-47c4-a530-34ce99064581] Completed 404 Not Found in 1ms (ActiveRecord: 0.0ms | Allocations: 134)
+F, [2023-02-08T12:46:11.301999 #5959] FATAL -- : [0a7ebc0b-d99d-47c4-a530-34ce99064581]   
+[0a7ebc0b-d99d-47c4-a530-34ce99064581] ActiveRecord::RecordNotFound (Couldn't find User without an ID):
+[0a7ebc0b-d99d-47c4-a530-34ce99064581]   
+[0a7ebc0b-d99d-47c4-a530-34ce99064581] app/controllers/article_controller.rb:5:in `create'
+I, [2023-02-08T12:46:28.895103 #5959]  INFO -- : [e5fad856-ab7f-4773-b009-e311e9b0a914] Started GET "/users" for 127.0.0.1 at 2023-02-08 12:46:28 +0530
+I, [2023-02-08T12:46:28.895908 #5959]  INFO -- : [e5fad856-ab7f-4773-b009-e311e9b0a914] Processing by UserController#readAllUser as */*
+I, [2023-02-08T12:46:28.897878 #5959]  INFO -- : [e5fad856-ab7f-4773-b009-e311e9b0a914] Completed 200 OK in 2ms (Views: 1.4ms | ActiveRecord: 0.3ms | Allocations: 623)
+I, [2023-02-08T12:48:51.337246 #5959]  INFO -- : [6aad0d71-46be-44b5-89b8-18d3c12d8585] Started GET "/articles" for 10.10.13.223 at 2023-02-08 12:48:51 +0530
+I, [2023-02-08T12:48:51.339374 #5959]  INFO -- : [6aad0d71-46be-44b5-89b8-18d3c12d8585] Processing by ArticleController#readAll as HTML
+I, [2023-02-08T12:48:51.344571 #5959]  INFO -- : [6aad0d71-46be-44b5-89b8-18d3c12d8585] Completed 200 OK in 5ms (Views: 4.0ms | ActiveRecord: 0.6ms | Allocations: 641)
+I, [2023-02-08T13:12:56.500153 #5959]  INFO -- : [a10690f2-48cd-481e-bd23-beefde5d7a00] Started POST "/article/create/2" for 10.10.13.218 at 2023-02-08 13:12:56 +0530
+F, [2023-02-08T13:12:56.502722 #5959] FATAL -- : [a10690f2-48cd-481e-bd23-beefde5d7a00]   
+[a10690f2-48cd-481e-bd23-beefde5d7a00] ActionController::RoutingError (No route matches [POST] "/article/create/2"):
+[a10690f2-48cd-481e-bd23-beefde5d7a00]   
+I, [2023-02-08T13:14:52.395241 #5959]  INFO -- : [b3d4ee16-b352-474c-beed-b53008f47942] Started POST "/article/create?user_id=2" for 10.10.13.218 at 2023-02-08 13:14:52 +0530
+I, [2023-02-08T13:14:52.397045 #5959]  INFO -- : [b3d4ee16-b352-474c-beed-b53008f47942] Processing by ArticleController#create as */*
+I, [2023-02-08T13:14:52.397117 #5959]  INFO -- : [b3d4ee16-b352-474c-beed-b53008f47942]   Parameters: {"user_id"=>"2"}
+I, [2023-02-08T13:14:52.408328 #5959]  INFO -- : [b3d4ee16-b352-474c-beed-b53008f47942] Completed 500 Internal Server Error in 11ms (ActiveRecord: 2.8ms | Allocations: 1334)
+F, [2023-02-08T13:14:52.408904 #5959] FATAL -- : [b3d4ee16-b352-474c-beed-b53008f47942]   
+[b3d4ee16-b352-474c-beed-b53008f47942] NoMethodError (undefined method `each' for nil:NilClass):
+[b3d4ee16-b352-474c-beed-b53008f47942]   
+[b3d4ee16-b352-474c-beed-b53008f47942] app/controllers/article_controller.rb:16:in `create'
+I, [2023-02-08T13:17:16.748381 #5959]  INFO -- : [e7870a2d-9960-4c4f-aa3b-72c77b691e46] Started POST "/article/create?user_id=2" for 10.10.13.218 at 2023-02-08 13:17:16 +0530
+I, [2023-02-08T13:17:16.750149 #5959]  INFO -- : [e7870a2d-9960-4c4f-aa3b-72c77b691e46] Processing by ArticleController#create as */*
+I, [2023-02-08T13:17:16.750245 #5959]  INFO -- : [e7870a2d-9960-4c4f-aa3b-72c77b691e46]   Parameters: {"user_id"=>"2"}
+I, [2023-02-08T13:17:16.760725 #5959]  INFO -- : [e7870a2d-9960-4c4f-aa3b-72c77b691e46] Completed 500 Internal Server Error in 10ms (ActiveRecord: 3.9ms | Allocations: 1192)
+F, [2023-02-08T13:17:16.761607 #5959] FATAL -- : [e7870a2d-9960-4c4f-aa3b-72c77b691e46]   
+[e7870a2d-9960-4c4f-aa3b-72c77b691e46] NoMethodError (undefined method `each' for nil:NilClass):
+[e7870a2d-9960-4c4f-aa3b-72c77b691e46]   
+[e7870a2d-9960-4c4f-aa3b-72c77b691e46] app/controllers/article_controller.rb:16:in `create'
